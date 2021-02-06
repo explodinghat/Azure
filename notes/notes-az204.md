@@ -6,3 +6,15 @@ Bitbucket: With its similarities to GitHub, you can configure an automated deplo
 OneDrive: Microsoft's cloud-based storage. You must have a Microsoft Account linked to a OneDrive account to deploy to Azure.
 Dropbox: Azure supports deployment from Dropbox, which is a popular cloud-based storage system that is similar to OneDrive.
 
+Create deployment slots and tiers
+Deployment slots are available only when your web app uses an App Service plan in the Standard, Premium, or Isolated tier. The following table shows the maximum number of slots you can create:
+
+CREATE DEPLOYMENT SLOTS AND TIERS
+Tier	Maximum staging slots
+Free	0
+Shared	0
+Basic	0
+Standard	5
+Premium	20
+Isolated	20
+
